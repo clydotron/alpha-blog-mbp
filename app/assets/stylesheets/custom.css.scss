@@ -1,0 +1,51 @@
+$navbar-default-bg: black;
+
+@import 'bootstrap/dist/css/bootstrap';
+
+/* navbar */
+.navbar-default {
+    background-color: #8888F8;
+    border-color: #E7E7E7;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.center {
+  text-align: center;
+}
+
+.article-actions {
+    border-top: 1px solid #eaeaea;
+    padding-top: 5pxl;
+}
+.description {
+  margin-top: 0;
+}
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777
+}
+footer a:hover {
+  color: #222;
+}
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
